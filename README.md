@@ -1,16 +1,25 @@
-# web_project
+# Youtube Home Responsive
 
-A new Flutter project.
+A YouTube responsive HomePage made with Flutter Web.
+
+## Responsive on
+
+* [x] Web (min-width: 1024px).
+* [x] Mobile (min-width: 1023px).
+* [x] Tablet (min-width: 650px).
+
+## Packages Used
+
+cupertino_icons: ^1.0.2
+flutter_modular: ^3.3.1
+mobx: ^2.0.4
+flutter_mobx: ^2.0.2
+responsive_framework: ^0.1.4
+flutter_svg: ^0.22.0
+flutter_icons: ^1.1.0
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1 - Clone this repository.
+2 - Run command: flutter pub get
+3 - Run command: flutter run -d your_web_browser
