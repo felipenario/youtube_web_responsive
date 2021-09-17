@@ -155,8 +155,7 @@ class Header extends StatelessWidget {
                   margin: const EdgeInsets.symmetric(horizontal: 8),
                   child: CircleAvatar(
                     maxRadius: 15,
-                    backgroundImage: NetworkImage(
-                        'https://yt3.ggpht.com/ytc/AKedOLR3q8g3x5RXxCL_RbdDW90ZVMWfb7zQ1b0LCjoJ=s900-c-k-c0x00ffffff-no-rj'),
+                    backgroundImage: AssetImage('assets/channel_image.jpg'),
                   ),
                 ),
               ],
@@ -210,8 +209,7 @@ class MobileTabletHeader extends StatelessWidget {
                 padding: const EdgeInsets.only(right: 22),
                 child: CircleAvatar(
                   maxRadius: 15,
-                  backgroundImage: NetworkImage(
-                      'https://yt3.ggpht.com/ytc/AKedOLR3q8g3x5RXxCL_RbdDW90ZVMWfb7zQ1b0LCjoJ=s900-c-k-c0x00ffffff-no-rj'),
+                  backgroundImage: AssetImage('assets/channel_image.jpg'),
                 ),
               ),
             ],
