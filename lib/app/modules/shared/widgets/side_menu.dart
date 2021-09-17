@@ -33,7 +33,7 @@ class SideMenu extends StatelessWidget {
               SideMenuButton(
                   icon: Icons.watch_later, label: 'Assistir mais tarde'),
               SideMenuButton(
-                  icon: Icons.thumb_up, label: 'Vídeos marcados co...'),
+                  icon: Icons.thumb_up, label: 'Vídeos marcados com "Gostei"'),
               SideMenuButton(icon: Icons.expand_more, label: 'Mostrar mais'),
               Divider(
                 color: ytbDarkThemeIconColor,
@@ -84,8 +84,7 @@ class SideMenu extends StatelessWidget {
                 endIndent: 18.48,
               ),
               SideMenuButton(icon: Icons.settings, label: 'Configurações'),
-              SideMenuButton(
-                  icon: Icons.flag, label: 'Histórico de denúnci...'),
+              SideMenuButton(icon: Icons.flag, label: 'Histórico de denúncias'),
               SideMenuButton(icon: Icons.help, label: 'Ajuda'),
               SideMenuButton(icon: Icons.feedback, label: 'Enviar feedback'),
               Divider(

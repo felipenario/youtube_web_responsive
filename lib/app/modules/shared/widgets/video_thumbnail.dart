@@ -19,8 +19,7 @@ class VideoThumbnail extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Container(
-              child: Image.network(
-                  'https://i.ytimg.com/vi/SdKv5Viymn4/maxresdefault.jpg'),
+              child: Image.asset('assets/thumbnail.jpg'),
             ),
             Container(
               margin: EdgeInsets.only(
