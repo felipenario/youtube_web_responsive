@@ -5,8 +5,8 @@ A YouTube responsive HomePage made with Flutter Web.
 ## Responsive on
 
 * [x] Web (min-width: 1024px).
-* [x] Tablet (min-width: 1023px).
-* [x] Mobile (min-width: 650px).
+* [x] Tablet (max-width: 1023px).
+* [x] Mobile (max-width: 650px).
 
 
 ## Packages Used
