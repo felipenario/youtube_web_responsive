@@ -1,4 +1,4 @@
-# Youtube Home Responsive
+# Youtube Web Responsive
 
 A YouTube responsive HomePage made with Flutter Web.
 
